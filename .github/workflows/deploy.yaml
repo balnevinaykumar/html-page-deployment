@@ -19,7 +19,7 @@ jobs:
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push vinayreddy143/html-template:latest
+        docker push vinayreddy143/html-template:latest .
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@v0.1.4
